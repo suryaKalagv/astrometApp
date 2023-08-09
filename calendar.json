@@ -1,0 +1,425 @@
+[{
+  "WeekId": 1,
+  "WeekRange":"March 21 2023 to March 28 2023",
+  "StartDate": 21,
+  "EndDate": 28,
+  "Month": "March-April",
+  "Year": 2023
+},
+{
+  "WeekId": 2,
+  "WeekRange":"March 29 2023 to April 5 2023",
+  "StartDate": 29,
+  "EndDate": 5,
+  "Month": "March-April",
+  "Year": 2023
+},
+{
+  "WeekId": 3,
+  "WeekRange":"April 6 2023 to April 12 2023",
+  "StartDate": 6,
+  "EndDate": 12,
+  "Month": "March-April",
+  "Year": 2023
+},
+{
+  "WeekId": 4,
+  "WeekRange":"April 13 2023 to April 19 2023",
+  "StartDate": 13,
+  "EndDate": 19,
+  "Month": "March-April",
+  "Year": 2023
+},
+{
+  "WeekId": 5,
+  "WeekRange":"April 20 2023 to April 27 2023",
+  "StartDate": 20,
+  "EndDate": 27,
+  "Month": "March-April",
+  "Year": 2023
+},
+{
+  "WeekId": 6,
+  "WeekRange":"April 28 2023 to May 4 2023",
+  "StartDate": 28,
+  "EndDate": 4,
+  "Month": "May",
+  "Year": 2023
+},
+{
+  "WeekId": 7,
+  "WeekRange":"May 5 2023 to May 11 2023",
+  "StartDate": 5,
+  "EndDate": 11,
+  "Month": "May",
+  "Year": 2023
+},
+{
+  "WeekId": 8,
+  "WeekRange":"May 12 2023 to May 18 2023",
+  "StartDate": 12,
+  "EndDate": 18,
+  "Month": "May",
+  "Year": 2023
+},
+{
+  "WeekId": 9,
+  "WeekRange":"May 19 2023 to May 26 2023",
+  "StartDate": 19,
+  "EndDate": 26,
+  "Month": "May",
+  "Year": 2023
+},
+{
+  "WeekId": 10,
+  "WeekRange":"May 27 2023 to June 3 2023",
+  "StartDate": 27,
+  "EndDate": 3,
+  "Month": "June",
+  "Year": 2023
+},
+{
+  "WeekId": 11,
+  "WeekRange":"June 4 2023 to June 10 2023",
+  "StartDate": 4,
+  "EndDate": 10,
+  "Month": "June",
+  "Year": 2023
+},
+{
+  "WeekId": 12,
+  "WeekRange":"June 11 2023 to June 17 2023",
+  "StartDate": 11,
+  "EndDate": 17,
+  "Month": "June",
+  "Year": 2023
+},
+{
+  "WeekId": 13,
+  "WeekRange":"June 18 2023 to June 25 2023",
+  "StartDate": 18,
+  "EndDate": 25,
+  "Month": "June",
+  "Year": 2023
+},
+{
+  "WeekId": 14,
+  "WeekRange":"June 26 2023 to July 2 2023",
+  "StartDate": 26,
+  "EndDate": 2,
+  "Month": "July",
+  "Year": 2023
+},
+{
+  "WeekId": 15,
+  "WeekRange":"July 3 2023 to July 9 2023",
+  "StartDate": 3,
+  "EndDate": 9,
+  "Month": "July",
+  "Year": 2023
+},
+{
+  "WeekId": 16,
+  "WeekRange":"July 10 2023 to July 17 2023",
+  "StartDate": 10,
+  "EndDate": 17,
+  "Month": "July",
+  "Year": 2023
+},
+{
+  "WeekId": 17,
+  "WeekRange":"July 18 2023 to July 25 2023",
+  "StartDate": 18,
+  "EndDate": 25,
+  "Month": "July",
+  "Year": 2023
+},
+{
+  "WeekId": 18,
+  "WeekRange":"July 26 2023 to August 1 2023",
+  "StartDate": 26,
+  "EndDate": 1,
+  "Month": "August",
+  "Year": 2023
+},
+{
+  "WeekId": 19,
+  "WeekRange":"August 2 2023 to August 8 2023",
+  "StartDate": 2,
+  "EndDate": 8,
+  "Month": "August",
+  "Year": 2023
+},
+{
+  "WeekId": 20,
+  "WeekRange":"August 8 2023 to August 15 2023",
+  "StartDate": 8,
+  "EndDate": 15,
+  "Month": "August",
+  "Year": 2023
+},
+{
+  "WeekId": 21,
+  "WeekRange":"August 16 2023 to August 23 2023",
+  "StartDate": 16,
+  "EndDate": 23,
+  "Month": "August",
+  "Year": 2023
+},
+{
+  "WeekId": 22,
+  "WeekRange":"August 24 2023 to August 30 2023",
+  "StartDate": 24,
+  "EndDate": 30,
+  "Month": "August",
+  "Year": 2023
+},
+{
+  "WeekId": 23,
+  "WeekRange":"August 31 2023 to September 6 2023",
+  "StartDate": 31,
+  "EndDate": 6,
+  "Month": "September",
+  "Year": 2023
+},
+{
+  "WeekId": 24,
+  "WeekRange":"September 7 2023 to September 14 2023",
+  "StartDate": 7,
+  "EndDate": 14,
+  "Month": "September",
+  "Year": 2023
+},
+{
+  "WeekId": 25,
+  "WeekRange":"September 15 2023 to September 22 2023",
+  "StartDate": 15,
+  "EndDate": 22,
+  "Month": "September",
+  "Year": 2023
+},
+{
+  "WeekId": 26,
+  "WeekRange":"September 23 2023 to September 28 2023",
+  "StartDate": 23,
+  "EndDate": 28,
+  "Month": "September",
+  "Year": 2023
+},
+{
+  "WeekId": 27,
+  "WeekRange":"September 29 2023 to October 5 2023",
+  "StartDate": 29,
+  "EndDate": 5,
+  "Month": "October",
+  "Year": 2023
+},
+{
+  "WeekId": 28,
+  "WeekRange":"October 6 2023 to October 13 2023",
+  "StartDate": 6,
+  "EndDate": 13,
+  "Month": "October",
+  "Year": 2023
+},
+{
+  "WeekId": 29,
+  "WeekRange":"October 14 2023 to October 21 2023",
+  "StartDate": 14,
+  "EndDate": 21,
+  "Month": "October",
+  "Year": 2023
+},
+{
+  "WeekId": 30,
+  "WeekRange":"October 22 2023 to October 28 2023",
+  "StartDate": 22,
+  "EndDate": 28,
+  "Month": "October",
+  "Year": 2023
+},
+{
+  "WeekId": 31,
+  "WeekRange":"October 29 2023 to November 4 2023",
+  "StartDate": 29,
+  "EndDate": 4,
+  "Month": "November",
+  "Year": 2023
+},
+{
+  "WeekId": 32,
+  "WeekRange":"November 5 2023 to November 12 2023",
+  "StartDate": 5,
+  "EndDate": 12,
+  "Month": "November",
+  "Year": 2023
+},
+{
+  "WeekId": 33,
+  "WeekRange":"November 13 2023 to November 19 2023",
+  "StartDate": 13,
+  "EndDate": 19,
+  "Month": "November",
+  "Year": 2023
+},
+{
+  "WeekId": 34,
+  "WeekRange":"November 20 2023 to November 26 2023",
+  "StartDate": 20,
+  "EndDate": 26,
+  "Month": "November",
+  "Year": 2023
+},
+{
+  "WeekId": 35,
+  "WeekRange":"November 27 2023 to December 4 2023",
+  "StartDate": 27,
+  "EndDate": 4,
+  "Month": "December",
+  "Year": 2023
+},
+{
+  "WeekId": 36,
+  "WeekRange":"December 5 2023 to December 12 2023",
+  "StartDate": 5,
+  "EndDate": 12,
+  "Month": "December",
+  "Year": 2023
+},
+{
+  "WeekId": 37,
+  "WeekRange":"December 13 2023 to December 19 2023",
+  "StartDate": 13,
+  "EndDate": 19,
+  "Month": "December",
+  "Year": 2023
+},
+{
+  "WeekId": 38,
+  "WeekRange":"December 20 2023 to December 26 2023",
+  "StartDate": 20,
+  "EndDate": 26,
+  "Month": "December",
+  "Year": 2023
+},
+{
+  "WeekId": 39,
+  "WeekRange":"December 27 2023 to January 3 2024",
+  "StartDate": 27,
+  "EndDate": 3,
+  "Month": "December",
+  "Year": 2023
+},
+{
+  "WeekId": 40,
+  "WeekRange":"January 4 2024 to January 10 2024",
+  "StartDate": 4,
+  "EndDate": 10,
+  "Month": "January",
+  "Year": 2024
+},
+{
+  "WeekId": 41,
+  "WeekRange":"January 11 2024 to January 17 2024",
+  "StartDate": 11,
+  "EndDate": 17,
+  "Month": "January",
+  "Year": 2024
+},
+{
+  "WeekId": 42,
+  "WeekRange":"January 18 2024 to January 24 2024",
+  "StartDate": 18,
+  "EndDate": 24,
+  "Month": "January",
+  "Year": 2024
+},
+{
+  "WeekId": 43,
+  "WeekRange":"January 25 2024 to February 2 2024",
+  "StartDate": 25,
+  "EndDate": 2,
+  "Month": "January",
+  "Year": 2024
+},
+{
+  "WeekId": 44,
+  "WeekRange":"February 3 2024 to February 9 2024",
+  "StartDate": 3,
+  "EndDate": 9,
+  "Month": "February",
+  "Year": 2024
+},
+{
+  "WeekId": 45,
+  "WeekRange":"February 10 2024 to February 15 2024",
+  "StartDate": 10,
+  "EndDate": 15,
+  "Month": "February",
+  "Year": 2024
+},
+{
+  "WeekId": 46,
+  "WeekRange":"February 16 2024 to February 23 2024",
+  "StartDate": 16,
+  "EndDate": 23,
+  "Month": "February",
+  "Year": 2024
+},
+{
+  "WeekId": 47,
+  "WeekRange":"February 24 2024 to March 2 2024",
+  "StartDate": 24,
+  "EndDate": 2,
+  "Month": "February",
+  "Year": 2024
+},
+{
+  "WeekId": 48,
+  "WeekRange":"March 3 2024 to March 9 2024",
+  "StartDate": 3,
+  "EndDate": 9,
+  "Month": "March",
+  "Year": 2024
+},
+{
+  "WeekId": 49,
+  "WeekRange":"March 10 2024 to March 16 2024",
+  "StartDate": 10,
+  "EndDate": 16,
+  "Month": "March",
+  "Year": 2024
+},
+{
+  "WeekId": 50,
+  "WeekRange":"March 17 2024 to March 24 2024",
+  "StartDate": 17,
+  "EndDate": 24,
+  "Month": "March",
+  "Year": 2024
+},
+{
+  "WeekId": 51,
+  "WeekRange":"March 25 2024 to April 1 2024",
+  "StartDate": 25,
+  "EndDate": 1,
+  "Month": "March",
+  "Year": 2024
+},
+{
+  "WeekId": 52,
+  "WeekRange":"April 2 2024 to April 7 2024",
+  "StartDate": 2,
+  "EndDate": 7,
+  "Month": "April",
+  "Year": 2024
+},
+{
+  "WeekId": 53,
+  "WeekRange":"April 8 2024 to April 15 2024",
+  "StartDate": 8,
+  "EndDate": 15,
+  "Month": "April",
+  "Year": 2024
+}
+]
