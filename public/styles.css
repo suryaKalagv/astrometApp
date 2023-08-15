@@ -46,6 +46,20 @@ h1 {
   background-color: #ffffff;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
 
 nav {
   background-color: lightblue;

@@ -16,14 +16,43 @@
       <button class="nav-button" id="SCAP" onclick="updatePlaceId('SCAP')">South Coastal AndhraPradesh</button>
     </div>
   </nav>
-  
+  <div class="container">
+    <div class="left-column">
   <table id="annual-calendar">
     <thead>
-      <tr><th>Annual Weather Calendar</th></tr>
+      <tr><th colpan="4">Annual Weather Calendar</th></tr>
       
     </thead>
     <tbody></tbody>
   </table>
+  
+</div>
+<div class="right-column">
+  <h1>Weather Data</h1>
+  <table id="weather-table">
+    <thead>
+      <tr>
+        <th colpan="4">Weather Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Expected Weather</th>
+        <td id="expected-weather-cell" colspan="3"></td>
+      </tr>
+      <tr>
+        <th>Place</th>
+        <td id="place-cell"></td>
+        <th>Week</th>
+        <td id="week-cell"></td>
+      </tr>
+      <tr>
+        <th>Summary</th>
+        <td id="summary-cell" colspan="3"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </div>
   <script src="scripts.js"></script>
 </body>

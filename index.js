@@ -12,6 +12,9 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html?placeId=TLNG'));
 });
 
+// Read the calendar.json file
+// Read the calendar and weather data files
+
 app.get('/calendarData', (req, res) => {
   // Read the calendar.json file
   fs.readFile('calendar.json', 'utf8', (err, data) => {
@@ -54,8 +57,25 @@ app.get('/calendarData', (req, res) => {
   });
 });
 
-// Read the calendar.json file
+const weatherData = JSON.parse(fs.readFileSync('weather.json', 'utf8'));
 
+// Endpoint to fetch weather data based on placeId and weekId
+app.get('/weatherData', (req, res) => {
+  const placeId = req.query.placeId;
+  const weekId = parseInt(req.query.weekId);
+
+  // Find the matching weather entry based on placeId and weekId
+  const matchingEntry = weatherData.find(entry => entry.placeId === placeId && entry.weekId === weekId);
+
+  if (matchingEntry) {
+    console.log(" matching Entry found " + placeId + weekId );
+    console.log(matchingEntry);
+    res.json(matchingEntry);
+  } else {
+    console.log(" matching Entry found " + placeId + weekId);
+    res.status(404).json({ error: 'Weather data not found' });
+  }
+});
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);

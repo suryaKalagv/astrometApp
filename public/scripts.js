@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded',  async function() {
+document.addEventListener('DOMContentLoaded', async function () {
   const buttons = document.querySelectorAll('.nav-button');
-  
+
   function updatePlaceId(placeIdSelected) {
     const urlSearchParams = new URLSearchParams(window.location.search);
     urlSearchParams.set('placeId', placeIdSelected);
@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded',  async function() {
     window.history.replaceState({}, '', newUrl);
   }
 
-  buttons.forEach(function(button) {
-    button.addEventListener('click', function() {
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
       const placeIdSelected = button.id;
       updatePlaceId(placeIdSelected);
 
       // Remove active class from all buttons
-      buttons.forEach(function(btn) {
+      buttons.forEach(function (btn) {
         btn.classList.remove('active');
       });
 
@@ -43,55 +43,125 @@ document.addEventListener('DOMContentLoaded',  async function() {
     }
   }
 
-  
+  // Get the URL parameters
+
+  let placeId = urlSearchParams.get('placeId');
+  let weekId = urlSearchParams.get('weekId');
+
+  // Set default values if parameters are missing
+  if (!placeId) {
+    placeId = 'TLNG';
+  }
+  if (!weekId) {
+    weekId = '1';
+  }
+
+  // Update the URL parameters
+  urlSearchParams.set('placeId', placeId);
+  urlSearchParams.set('weekId', weekId);
+  const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+  window.history.replaceState({}, '', newUrl);
+
+
+
+  try {
     const annualCalendar = document.querySelector('#annual-calendar tbody');
-  
-    try {
-      const response = await fetch('/calendarData');
-      const monthYearMap = await response.json();
-  
-      const rows = Math.ceil(Object.entries(monthYearMap).length / 4);
-  
-      for (let i = 0; i < rows; i++) {
-        const row = document.createElement('tr');
-  
-        for (let j = 0; j < 4; j++) {
-          const cell = document.createElement('td');
-          const index = i * 4 + j;
-          const entry = Object.entries(monthYearMap)[index];
-          
-          if (entry) {
-            const monthYearCell = document.createElement('div');
-            monthYearCell.textContent = entry[0];
-            cell.appendChild(monthYearCell);
-  
-            const weekRangeCell = document.createElement('div');
-            entry[1].forEach(weekEntry => {
-              const weekLink = document.createElement('a');
-              weekLink.href = `?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
-              weekLink.textContent = `${weekEntry.weekId}: ${weekEntry.weekRange}`;
-              weekLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                const newUrl = `${window.location.pathname}?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
-                window.history.pushState({}, '', newUrl);
-              });
-              weekRangeCell.appendChild(weekLink);
-              weekRangeCell.appendChild(document.createElement('br'));
+    const response = await fetch('/calendarData');
+    const monthYearMap = await response.json();
+  //  populateAnnualCalendar(monthYearMap);
+    const rows = Math.ceil(Object.entries(monthYearMap).length / 4);
+
+    for (let i = 0; i < rows; i++) {
+      const row = document.createElement('tr');
+
+      for (let j = 0; j < 4; j++) {
+        const cell = document.createElement('td');
+        const index = i * 4 + j;
+        const entry = Object.entries(monthYearMap)[index];
+
+        if (entry) {
+          const monthYearCell = document.createElement('div');
+          monthYearCell.textContent = entry[0];
+          cell.appendChild(monthYearCell);
+
+          const weekRangeCell = document.createElement('div');
+          entry[1].forEach(weekEntry => {
+            const weekLink = document.createElement('a');
+            weekLink.href = `?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
+            weekLink.textContent = `${weekEntry.weekId}: ${weekEntry.weekRange}`;
+            weekLink.addEventListener('click', function (event) {
+              event.preventDefault();
+              const newUrl = `${window.location.pathname}?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
+              window.history.pushState({}, '', newUrl);
             });
-            cell.appendChild(weekRangeCell);
-          }
-  
-          row.appendChild(cell);
+            weekRangeCell.appendChild(weekLink);
+            weekRangeCell.appendChild(document.createElement('br'));
+          });
+          cell.appendChild(weekRangeCell);
         }
-  
-        annualCalendar.appendChild(row);
+
+        row.appendChild(cell);
       }
-    } catch (fetchError) {
-      console.error('Error fetching data:', fetchError);
+
+      annualCalendar.appendChild(row);
     }
+  } catch (fetchError) {
+    console.error('Error fetching data:', fetchError);
+  }
+
+  await displayWeatherData(placeId, weekId);
+  const annualCalendarLinks = document.querySelectorAll('#annual-calendar a');
+  annualCalendarLinks.forEach(link => {
+    link.addEventListener('click', async function(event) {
+      event.preventDefault();
+      
+      // Get placeId and weekId from the clicked link's data attributes
+      const placeId = link.getAttribute('data-place-id');
+      const weekId = link.getAttribute('data-week-id');
+      
+      // Update the URL parameters
+      urlSearchParams.set('placeId', placeId);
+      urlSearchParams.set('weekId', weekId);
+      const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+      window.history.replaceState({}, '', newUrl);
+
+      // Call the function to display weather data based on URL parameters
+      await displayWeatherData(placeId, weekId);
+    });
   });
   
-  function getPlaceId() {
-    const urlSearchParams = new URLSearchParams(window.location.search);
-    return urlSearchParams.get('placeId') || 'TLNG';
+});
+
+function getPlaceId() {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  return urlSearchParams.get('placeId') || 'TLNG';
+}
+
+function getWeekId() {
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  return urlSearchParams.get('weekId') || 1;
+}
+
+async function displayWeatherData(placeId, weekId) {
+  try {
+    // Fetch weather data for the specified placeId and weekId
+    const weatherResponse = await fetch(`/weatherData?placeId=${placeId}&weekId=${weekId}`);
+    const matchingEntry = await weatherResponse.json();
+
+    if (matchingEntry) {
+      const weatherTable = document.querySelector('#weather-table');
+      const expectedWeatherCell = document.querySelector('#expected-weather-cell');
+
+      // Populate the cells with weather data
+      expectedWeatherCell.textContent = matchingEntry.ExpectedWeather;
+
+   
+
+    } else {
+      console.log('No matching weather data found.');
+    }
+  } catch (fetchError) {
+    console.error('Error fetching data:', fetchError);
   }
+}
+
