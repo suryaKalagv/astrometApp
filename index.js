@@ -63,17 +63,27 @@ const weatherData = JSON.parse(fs.readFileSync('weather.json', 'utf8'));
 app.get('/weatherData', (req, res) => {
   const placeId = req.query.placeId;
   const weekId = parseInt(req.query.weekId);
-
+  console.log(" placeId  " + placeId + " weekId " + weekId );
   // Find the matching weather entry based on placeId and weekId
+  const noDataObject = {
+    "placeId": "No data",
+    "places": "No data",
+    "weekId": 0,
+    "Summary": "No data",
+    "weatherImage": "No data",
+    "ExpectedWeather": "No data"
+  };
   const matchingEntry = weatherData.find(entry => entry.placeId === placeId && entry.weekId === weekId);
 
   if (matchingEntry) {
-    console.log(" matching Entry found " + placeId + weekId );
+   
+    console.log(" matching Entry found " );
     console.log(matchingEntry);
     res.json(matchingEntry);
   } else {
-    console.log(" matching Entry found " + placeId + weekId);
-    res.status(404).json({ error: 'Weather data not found' });
+    console.log(" No matching Entry found " + placeId + weekId);
+    res.json(noDataObject);
+    //res.status(404).json({ error: 'Weather data not found' });
   }
 });
 

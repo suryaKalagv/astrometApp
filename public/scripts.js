@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     window.history.replaceState({}, '', newUrl);
   }
 
-  buttons.forEach(function (button) {
+  buttons.forEach(async function (button) {
     button.addEventListener('click', function () {
       const placeIdSelected = button.id;
       updatePlaceId(placeIdSelected);
@@ -20,11 +20,14 @@ document.addEventListener('DOMContentLoaded', async function () {
 
       // Add active class to the clicked button
       button.classList.add('active');
+      window.location.href = `/?placeId=${placeIdSelected}&weekId=${getWeekId()}`;
     });
+   
   });
 
   // Check if placeId parameter is missing in the URL
   const urlSearchParams = new URLSearchParams(window.location.search);
+ 
   if (!urlSearchParams.has('placeId')) {
     updatePlaceId('TLNG');
     window.location.href = '/?placeId=TLNG';
@@ -34,9 +37,14 @@ document.addEventListener('DOMContentLoaded', async function () {
     if (tlngButton) {
       tlngButton.classList.add('active');
     }
-  } else {
+  } 
+  else {
+    // Retrieve placeId from the URL params
+     const placeId = urlSearchParams.get('placeId');
+    await displayWeatherData(placeId, getWeekId());
+
     // Add active class to the button corresponding to the current placeId
-    const placeId = urlSearchParams.get('placeId');
+   
     const activeButton = document.getElementById(placeId);
     if (activeButton) {
       activeButton.classList.add('active');
@@ -68,7 +76,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const annualCalendar = document.querySelector('#annual-calendar tbody');
     const response = await fetch('/calendarData');
     const monthYearMap = await response.json();
-  //  populateAnnualCalendar(monthYearMap);
+    //  populateAnnualCalendar(monthYearMap);
     const rows = Math.ceil(Object.entries(monthYearMap).length / 4);
 
     for (let i = 0; i < rows; i++) {
@@ -89,20 +97,26 @@ document.addEventListener('DOMContentLoaded', async function () {
             const weekLink = document.createElement('a');
             weekLink.href = `?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
             weekLink.textContent = `${weekEntry.weekId}: ${weekEntry.weekRange}`;
-            weekLink.addEventListener('click', function (event) {
+            
+            // Set data attributes for placeId and weekId
+            weekLink.setAttribute('data-place-id', getPlaceId());
+            weekLink.setAttribute('data-week-id', weekEntry.weekId);
+            
+            weekLink.addEventListener('click', async function (event) {
               event.preventDefault();
               const newUrl = `${window.location.pathname}?placeId=${getPlaceId()}&weekId=${weekEntry.weekId}`;
               window.history.pushState({}, '', newUrl);
+              await displayWeatherData(getPlaceId(), weekEntry.weekId);
             });
             weekRangeCell.appendChild(weekLink);
             weekRangeCell.appendChild(document.createElement('br'));
           });
           cell.appendChild(weekRangeCell);
         }
-
+    
         row.appendChild(cell);
       }
-
+    
       annualCalendar.appendChild(row);
     }
   } catch (fetchError) {
@@ -112,13 +126,13 @@ document.addEventListener('DOMContentLoaded', async function () {
   await displayWeatherData(placeId, weekId);
   const annualCalendarLinks = document.querySelectorAll('#annual-calendar a');
   annualCalendarLinks.forEach(link => {
-    link.addEventListener('click', async function(event) {
+    link.addEventListener('click', async function (event) {
       event.preventDefault();
-      
+
       // Get placeId and weekId from the clicked link's data attributes
       const placeId = link.getAttribute('data-place-id');
       const weekId = link.getAttribute('data-week-id');
-      
+
       // Update the URL parameters
       urlSearchParams.set('placeId', placeId);
       urlSearchParams.set('weekId', weekId);
@@ -129,7 +143,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       await displayWeatherData(placeId, weekId);
     });
   });
-  
+
 });
 
 function getPlaceId() {
@@ -149,14 +163,24 @@ async function displayWeatherData(placeId, weekId) {
     const matchingEntry = await weatherResponse.json();
 
     if (matchingEntry) {
-      const weatherTable = document.querySelector('#weather-table');
-      const expectedWeatherCell = document.querySelector('#expected-weather-cell');
-
-      // Populate the cells with weather data
-      expectedWeatherCell.textContent = matchingEntry.ExpectedWeather;
-
-   
-
+      const weatherTableBody = document.querySelector('#weather-table tbody');
+      weatherTableBody.innerHTML = ''; // Clear previous rows
+      
+      for (const key in matchingEntry) {
+        const newRow = document.createElement('tr');
+        
+        // Key cell
+        const keyCell = document.createElement('td');
+        keyCell.textContent = key;
+        newRow.appendChild(keyCell);
+        
+        // Value cell
+        const valueCell = document.createElement('td');
+        valueCell.textContent = matchingEntry[key];
+        newRow.appendChild(valueCell);
+        
+        weatherTableBody.appendChild(newRow);
+      }
     } else {
       console.log('No matching weather data found.');
     }
@@ -164,4 +188,5 @@ async function displayWeatherData(placeId, weekId) {
     console.error('Error fetching data:', fetchError);
   }
 }
+
 
