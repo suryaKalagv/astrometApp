@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
         if (entry) {
           const monthYearCell = document.createElement('div');
-          monthYearCell.textContent = entry[0];
+          monthYearCell.textContent = "Month:   " + entry[0];
           monthYearCell.style.whiteSpace = "nowrap";
           monthYearCell.style.lineHeight = "1"; 
           cell.appendChild(monthYearCell);
