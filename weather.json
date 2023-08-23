@@ -398,5 +398,21 @@
         "Summary": "expecting heavyrains",
         "weatherImage": "heavyRains.png",
          "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "NCAP",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 1,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "SCAP",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 2,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
     }
 ]

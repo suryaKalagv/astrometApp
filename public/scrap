@@ -1,0 +1,12 @@
+ const keyCell = document.createElement('td');
+          keyCell.textContent = key;
+          newRow.appendChild(keyCell);
+
+
+          const valueCell = document.createElement('td');
+          valueCell.textContent = matchingEntry[key];
+          const placeIdImage = document.createElement('img');
+          placeIdImage.src = `images/${matchingEntry["placeId"]}.jpg`;
+          placeIdImage.alt = matchingEntry[key]; // Set alt text for accessibility
+          placeIdImage.style.width = '250px'; // Set width
+          placeIdImage.style.height = '250px'; // Set height

@@ -1,38 +1,77 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .left-column {
-    width: 75%; /* Annual calendar width */
-  }
-  
-  .right-column {
-    width: 25%; /* Weather data width */
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  justify-content: center; /* Center the content horizontally */
+  padding-top: 100px;
+}
 
-  .wrapper {
-    display: flex;
-    padding-top: 100px; /* Adjust the value as needed */
-    justify-content: flex-start;
-  }
+nav {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 1001;
+}
+
+.nav-button-container {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button.active {
+  background-color: red;
+}
+
+.nav-button:not(.active):hover {
+  background-color: lightcoral;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%; /* Make the container occupy full width */
+  max-width: 1200px; /* Limit maximum width for larger screens */
+  margin: 0 auto; /* Center the container horizontally */
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+.left-column,
+.right-column {
+  width: calc(50% - 10px); /* Subtract some margin between columns */
+  box-sizing: border-box;
+}
 
 .annual-calendar-heading,
 .weather-table-heading {
   text-align: center;
   font-weight: bold;
-  padding: 10px 0; /* Adjust padding as needed */
+  padding: 10px 0;
   background-color: #f2f2f2;
   border: none;
-  position: relative;
-  z-index: 1000; /* Set z-index to 1000 */
 }
 
 #annual-calendar,
@@ -40,84 +79,33 @@ body {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
-  position: relative;
-  z-index: 999; /* Set z-index to 999 */
 }
-  
-  #annual-calendar,
-  #weather-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  #annual-calendar th,
-  #annual-calendar td,
-  #weather-table th,
-  #weather-table td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    max-width: 300px;
-    word-wrap: break-word;
-    overflow: hidden;
-    white-space: normal;
-  }
-  
-  #annual-calendar th[colspan="4"],
-  #weather-table th[colspan="2"] {
-    text-align: center;
-    font-weight: bold;
-    background-color: #f2f2f2;
-    border: none;
-  }
-  
-  #annual-calendar tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  #annual-calendar tbody tr:nth-child(odd) {
-    background-color: #ffffff;
-  }
- 
-  nav {
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 1001; /* Increase the z-index to 1001 */
-  }
-  .nav-button-container {
-    display: flex;
-    gap: 10px;
-    padding: 0 20px;
-  }
-  
-  .nav-button {
-    background-color: transparent;
-    border: 2px solid lightblue;
-    border-radius: 25px;
-    padding: 5px 15px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .nav-button.active {
-    background-color: red;
-  }
-  
-  .nav-button:not(.active):hover {
-    background-color: lightcoral;
-  }
-  
-  
-  
-  
-  
-  
+
+#annual-calendar th,
+#annual-calendar td,
+#weather-table th,
+#weather-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: normal;
+  box-sizing: border-box;
+}
+
+#annual-calendar th[colspan="4"],
+#weather-table th[colspan="2"] {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+#annual-calendar tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#annual-calendar tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
