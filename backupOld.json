@@ -1,0 +1,420 @@
+[
+    [
+        {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 1,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 2,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 3,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 4,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 5,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 6,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 7,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 8,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 9,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 10,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 11,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 12,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 13,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 14,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 15,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 16,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 17,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 18,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 19,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 20,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 21,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 22,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 23,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 24,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "RLSM",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 25,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 1,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 2,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 3,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 4,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 5,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 6,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 7,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 8,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 9,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 10,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 11,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 12,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 13,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 14,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 15,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 16,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 17,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 18,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 19,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 20,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 21,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 22,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 23,
+        "Summary": "windy",
+        "weatherImage": "winds.jpg",
+         "ExpectedWeather": "Winds , Warm, Partly cloudy, isolated thunder showers, MR- HR"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 24,
+        "Summary": "Rains",
+        "weatherImage": "Rains.jpg",
+         "ExpectedWeather": "Expecting passing showers and rains"
+    },
+    {
+        "placeId": "TLNG",
+        "places": "Telangana : Districts of Telangana state",
+        "weekId": 25,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "NCAP",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 1,
+        "Summary": "expecting heavyrains",
+        "weatherImage": "heavyRains.png",
+         "ExpectedWeather": "Trough along East coast with Upper air circulation, from NCAP to Odisha, West BengalNormal temperatures, humid, partly cloudy, thunder showers with moderate gusty winds, wide spread moderate to heavy rains"
+    },
+    {
+        "placeId": "SCAP",
+        "places": "Rayalaseema : North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+        "weekId": 2,
+        "Summary": "sunny",
+        "weatherImage": "sunny.jpg",
+         "ExpectedWeather": "Above normal temperatures, less moisture, isolated thunder showers."
+    }
+
+]

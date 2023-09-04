@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Data</title>
+</head>
+<body>
+  <h1>Add Weather Data</h1>
+  <form id="weather-form">
+    <label for="placeId">Place ID:</label>
+    <input type="text" id="placeId" name="placeId" required><br>
+
+    <label for="places">Places:</label>
+    <input type="text" id="places" name="places" required><br>
+
+    <label for="weekId">Week ID:</label>
+    <input type="number" id="weekId" name="weekId" required><br>
+
+    <label for="summary">Summary:</label>
+    <input type="text" id="Summary" name="Summary" required><br>
+
+    <label for="weatherImage">Weather Image:</label>
+    <input type="text" id="weatherImage" name="weatherImage" required><br>
+
+    <label for="expectedWeather">Expected Weather:</label>
+    <textarea id="ExpectedWeather" name="ExpectedWeather" rows="4" required></textarea><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  <script>document.addEventListener('DOMContentLoaded', () => {
+    const weatherForm = document.getElementById('weather-form');
+  
+    weatherForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+  
+      const formData = new FormData(weatherForm);
+      const data = {};
+      formData.forEach((value, key) => {
+      // Convert "weekId" to an integer
+      if (key === 'weekId') {
+        data[key] = parseInt(value, 10);
+      } else {
+        data[key] = value;
+      }
+    });
+
+    try {
+      const response = await fetch('/addWeatherData', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        console.log('Weather data added successfully.');
+      } else {
+        console.error('Failed to add weather data.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  });
+});
+
+  </script>
+</body>
+</html>

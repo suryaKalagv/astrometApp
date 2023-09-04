@@ -1,0 +1,346 @@
+ {
+    "March-April-2023": [
+        {
+            "weekId": 1,
+            "weekDisplay": "21 - 28",
+            "weekRange": "March 21 2023 to March 28 2023",
+            "weatherImage": "heavyRains.png"
+        },
+        {
+            "weekId": 2,
+            "weekDisplay": "29 - 5",
+            "weekRange": "March 29 2023 to April 5 2023",
+            "weatherImage": "sunny.jpg"
+        },
+        {
+            "weekId": 3,
+            "weekDisplay": "6 - 12",
+            "weekRange": "April 6 2023 to April 12 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 4,
+            "weekDisplay": "13 - 19",
+            "weekRange": "April 13 2023 to April 19 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 5,
+            "weekDisplay": "20 - 27",
+            "weekRange": "April 20 2023 to April 27 2023",
+            "weatherImage": "heavyRains.png"
+        }
+    ],
+    "May-2023": [
+        {
+            "weekId": 6,
+            "weekDisplay": "28 - 4",
+            "weekRange": "April 28 2023 to May 4 2023",
+            "weatherImage": "sunny.jpg"
+        },
+        {
+            "weekId": 7,
+            "weekDisplay": "5 - 11",
+            "weekRange": "May 5 2023 to May 11 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 8,
+            "weekDisplay": "12 - 18",
+            "weekRange": "May 12 2023 to May 18 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 9,
+            "weekDisplay": "19 - 26",
+            "weekRange": "May 19 2023 to May 26 2023",
+            "weatherImage": "heavyRains.png"
+        }
+    ],
+    "June-2023": [
+        {
+            "weekId": 10,
+            "weekDisplay": "27 - 3",
+            "weekRange": "May 27 2023 to June 3 2023",
+            "weatherImage": "sunny.jpg"
+        },
+        {
+            "weekId": 11,
+            "weekDisplay": "4 - 10",
+            "weekRange": "June 4 2023 to June 10 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 12,
+            "weekDisplay": "11 - 17",
+            "weekRange": "June 11 2023 to June 17 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 13,
+            "weekDisplay": "18 - 25",
+            "weekRange": "June 18 2023 to June 25 2023",
+            "weatherImage": "heavyRains.png"
+        }
+    ],
+    "July-2023": [
+        {
+            "weekId": 14,
+            "weekDisplay": "26 - 2",
+            "weekRange": "June 26 2023 to July 2 2023",
+            "weatherImage": "sunny.jpg"
+        },
+        {
+            "weekId": 15,
+            "weekDisplay": "3 - 9",
+            "weekRange": "July 3 2023 to July 9 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 16,
+            "weekDisplay": "10 - 17",
+            "weekRange": "July 10 2023 to July 17 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 17,
+            "weekDisplay": "18 - 25",
+            "weekRange": "July 18 2023 to July 25 2023",
+            "weatherImage": "heavyRains.png"
+        }
+    ],
+    "August-2023": [
+        {
+            "weekId": 18,
+            "weekDisplay": "26 - 1",
+            "weekRange": "July 26 2023 to August 1 2023",
+            "weatherImage": "sunny.jpg"
+        },
+        {
+            "weekId": 19,
+            "weekDisplay": "2 - 8",
+            "weekRange": "August 2 2023 to August 8 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 20,
+            "weekDisplay": "8 - 15",
+            "weekRange": "August 8 2023 to August 15 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 21,
+            "weekDisplay": "16 - 23",
+            "weekRange": "August 16 2023 to August 23 2023",
+            "weatherImage": "heavyRains.png"
+        },
+        {
+            "weekId": 22,
+            "weekDisplay": "24 - 30",
+            "weekRange": "August 24 2023 to August 30 2023",
+            "weatherImage": "sunny.jpg"
+        }
+    ],
+    "September-2023": [
+        {
+            "weekId": 23,
+            "weekDisplay": "31 - 6",
+            "weekRange": "August 31 2023 to September 6 2023",
+            "weatherImage": "winds.jpg"
+        },
+        {
+            "weekId": 24,
+            "weekDisplay": "7 - 14",
+            "weekRange": "September 7 2023 to September 14 2023",
+            "weatherImage": "Rains.jpg"
+        },
+        {
+            "weekId": 25,
+            "weekDisplay": "15 - 22",
+            "weekRange": "September 15 2023 to September 22 2023",
+            "weatherImage": "heavyRains.png"
+        },
+        {
+            "weekId": 26,
+            "weekDisplay": "23 - 28",
+            "weekRange": "September 23 2023 to September 28 2023",
+            "weatherImage": "No data"
+        }
+    ],
+    "October-2023": [
+        {
+            "weekId": 27,
+            "weekDisplay": "29 - 5",
+            "weekRange": "September 29 2023 to October 5 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 28,
+            "weekDisplay": "6 - 13",
+            "weekRange": "October 6 2023 to October 13 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 29,
+            "weekDisplay": "14 - 21",
+            "weekRange": "October 14 2023 to October 21 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 30,
+            "weekDisplay": "22 - 28",
+            "weekRange": "October 22 2023 to October 28 2023",
+            "weatherImage": "No data"
+        }
+    ],
+    "November-2023": [
+        {
+            "weekId": 31,
+            "weekDisplay": "29 - 4",
+            "weekRange": "October 29 2023 to November 4 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 32,
+            "weekDisplay": "5 - 12",
+            "weekRange": "November 5 2023 to November 12 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 33,
+            "weekDisplay": "13 - 19",
+            "weekRange": "November 13 2023 to November 19 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 34,
+            "weekDisplay": "20 - 26",
+            "weekRange": "November 20 2023 to November 26 2023",
+            "weatherImage": "No data"
+        }
+    ],
+    "December-2023": [
+        {
+            "weekId": 35,
+            "weekDisplay": "27 - 4",
+            "weekRange": "November 27 2023 to December 4 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 36,
+            "weekDisplay": "5 - 12",
+            "weekRange": "December 5 2023 to December 12 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 37,
+            "weekDisplay": "13 - 19",
+            "weekRange": "December 13 2023 to December 19 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 38,
+            "weekDisplay": "20 - 26",
+            "weekRange": "December 20 2023 to December 26 2023",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 39,
+            "weekDisplay": "27 - 3",
+            "weekRange": "December 27 2023 to January 3 2024",
+            "weatherImage": "No data"
+        }
+    ],
+    "January-2024": [
+        {
+            "weekId": 40,
+            "weekDisplay": "4 - 10",
+            "weekRange": "January 4 2024 to January 10 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 41,
+            "weekDisplay": "11 - 17",
+            "weekRange": "January 11 2024 to January 17 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 42,
+            "weekDisplay": "18 - 24",
+            "weekRange": "January 18 2024 to January 24 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 43,
+            "weekDisplay": "25 - 2",
+            "weekRange": "January 25 2024 to February 2 2024",
+            "weatherImage": "No data"
+        }
+    ],
+    "February-2024": [
+        {
+            "weekId": 44,
+            "weekDisplay": "3 - 9",
+            "weekRange": "February 3 2024 to February 9 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 45,
+            "weekDisplay": "10 - 15",
+            "weekRange": "February 10 2024 to February 15 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 46,
+            "weekDisplay": "16 - 23",
+            "weekRange": "February 16 2024 to February 23 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 47,
+            "weekDisplay": "24 - 2",
+            "weekRange": "February 24 2024 to March 2 2024",
+            "weatherImage": "No data"
+        }
+    ],
+    "March-2024": [
+        {
+            "weekId": 48,
+            "weekDisplay": "3 - 9",
+            "weekRange": "March 3 2024 to March 9 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 49,
+            "weekDisplay": "10 - 16",
+            "weekRange": "March 10 2024 to March 16 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 50,
+            "weekDisplay": "17 - 24",
+            "weekRange": "March 17 2024 to March 24 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 51,
+            "weekDisplay": "25 - 1",
+            "weekRange": "March 25 2024 to April 1 2024",
+            "weatherImage": "No data"
+        }
+    ],
+    "April-2024": [
+        {
+            "weekId": 52,
+            "weekDisplay": "2 - 7",
+            "weekRange": "April 2 2024 to April 7 2024",
+            "weatherImage": "No data"
+        },
+        {
+            "weekId": 53,
+            "weekDisplay": "8 - 15",
+            "weekRange": "April 8 2024 to April 15 2024",
+            "weatherImage": "No data"
+        }
+    ]
+}

@@ -73,9 +73,38 @@ document.addEventListener('DOMContentLoaded', async function () {
   urlSearchParams.set('weekId', weekId);
   const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
   window.history.replaceState({}, '', newUrl);
+  // Fetch and populate annual calendar data on page load
+  await populateAnnualCalendar(placeId);
+  window.addEventListener('beforeunload', async function () {
+    alert ("refresh called")
+    // Fetch and populate annual calendar data on page refresh
+    await populateAnnualCalendar(placeId);
+  });
 
+  await displayWeatherData(placeId, weekId, weekRange);
+  const annualCalendarLinks = document.querySelectorAll('#annual-calendar a');
+  annualCalendarLinks.forEach(link => {
+    link.addEventListener('click', async function (event) {
+      event.preventDefault();
 
+      // Get placeId and weekId from the clicked link's data attributes
+      const placeId = link.getAttribute('data-place-id');
+      const weekId = link.getAttribute('data-week-id');
+      const weekRange = link.getAttribute('data-weekRange-id');
 
+      // Update the URL parameters
+      urlSearchParams.set('placeId', placeId);
+      urlSearchParams.set('weekId', weekId);
+      const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
+      window.history.replaceState({}, '', newUrl);
+
+      // Call the function to display weather data based on URL parameters
+      await displayWeatherData(placeId, weekId, weekRange);
+    });
+  });
+
+});
+async function populateAnnualCalendar(placeId) {
   try {
     const annualCalendar = document.querySelector('#annual-calendar tbody');
     const response = await fetch(`/calendarData?placeId=${placeId}`);
@@ -96,7 +125,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           const monthYearCell = document.createElement('div');
           monthYearCell.textContent = "Month:   " + entry[0];
           monthYearCell.style.whiteSpace = "nowrap";
-          monthYearCell.style.lineHeight = "1"; 
+          monthYearCell.style.lineHeight = "1";
           cell.appendChild(monthYearCell);
 
           const weekRangeCell = document.createElement('div');
@@ -141,31 +170,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   } catch (fetchError) {
     console.error('Error fetching data:', fetchError);
   }
-
-  await displayWeatherData(placeId, weekId, weekRange);
-  const annualCalendarLinks = document.querySelectorAll('#annual-calendar a');
-  annualCalendarLinks.forEach(link => {
-    link.addEventListener('click', async function (event) {
-      event.preventDefault();
-
-      // Get placeId and weekId from the clicked link's data attributes
-      const placeId = link.getAttribute('data-place-id');
-      const weekId = link.getAttribute('data-week-id');
-      const weekRange = link.getAttribute('data-weekRange-id');
-
-      // Update the URL parameters
-      urlSearchParams.set('placeId', placeId);
-      urlSearchParams.set('weekId', weekId);
-      const newUrl = `${window.location.pathname}?${urlSearchParams.toString()}`;
-      window.history.replaceState({}, '', newUrl);
-
-      // Call the function to display weather data based on URL parameters
-      await displayWeatherData(placeId, weekId, weekRange);
-    });
-  });
-
-});
-
+}
 function getPlaceId() {
   const urlSearchParams = new URLSearchParams(window.location.search);
   return urlSearchParams.get('placeId') || 'TLNG';
