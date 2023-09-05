@@ -20,6 +20,9 @@
     <label for="summary">Summary:</label>
     <input type="text" id="Summary" name="Summary" required><br>
 
+    <label for="placeImage">Place Image:</label>
+    <input type="text" id="placeImage" name="placeImage" required><br>
+
     <label for="weatherImage">Weather Image:</label>
     <input type="text" id="weatherImage" name="weatherImage" required><br>
 
@@ -46,7 +49,7 @@
     });
 
     try {
-      const response = await fetch('/addWeatherData', {
+      const response = await fetch('/updateWeatherData', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Astromet Weather 2023-2024</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+  <title>Astromet Weather 2023-2024</title>
+</head>
+
 <body>
   <div class="wrapper">
-  <nav>
-    <div class="nav-button-container">
-      <button class="nav-button" id="TLNG" onclick="updatePlaceId('TLNG')">Telangana</button>
-      <button class="nav-button" id="RLSM" onclick="updatePlaceId('RLSM')">Rayalaseema</button>
-      <button class="nav-button" id="NCAP" onclick="updatePlaceId('NCAP')">North Coastal AndhraPradesh</button>
-      <button class="nav-button" id="SCAP" onclick="updatePlaceId('SCAP')">South Coastal AndhraPradesh</button>
-      
-    <div><a href = "editWeather.html">Edit</a></div>
-  </nav>
-  <div class="container">
-    <table> <tr><td><table id="annual-calendar">
-      <thead>
+    <nav>
+      <div class="nav-button-container">
+        <button class="nav-button" id="TLNG" onclick="updatePlaceId('TLNG')">Telangana</button>
+        <button class="nav-button" id="RLSM" onclick="updatePlaceId('RLSM')">Rayalaseema</button>
+        <button class="nav-button" id="NCAP" onclick="updatePlaceId('NCAP')">North Coastal AndhraPradesh</button>
+        <button class="nav-button" id="SCAP" onclick="updatePlaceId('SCAP')">South Coastal AndhraPradesh</button>
+        <button class="nav-button" id="HLGT" onclick="updatePlaceId('HLGT')">HighLights</button>
+        <div>
+          <a href="javascript:void(0);" onclick="openInNewWindow('editWeather.html')">
+            <i class="fas fa-book"></i> Edit
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" onclick="openInNewWindow('TeluguAstromet.pdf')">
+            <i class="fas fa-book"></i> Telugu PDF
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" onclick="openInNewWindow('EnglishAstromet.pdf')">
+            <i class="fas fa-book"></i> English PDF
+          </a>
+        </div>
+    </nav>
+    <div class="container">
+      <table>
         <tr>
-          <th class="annual-calendar-heading" colspan="4">2023-2024 Annual  astromet weather  prediction</th>
+          <td>
+            <table id="annual-calendar">
+              <thead>
+                <tr>
+                  <th class="annual-calendar-heading" colspan="4">Vaatavarana Panchangam : 2023 – 2024 (Shobhakrut)
+                    Annual Weather Forecast from 21-03-2023 to 08-04-2024</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Populate your annual calendar rows here -->
+              </tbody>
+            </table>
+          </td>
+          <td>
+            <table id="weather-table">
+              <thead>
+                <tr>
+                  <th class="weather-table-heading" colspan="4">Weeks overall expected weather</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Weather data will be populated here -->
+              </tbody>
+            </table>
+          </td>
         </tr>
-      </thead>
-      <tbody>
-        <!-- Populate your annual calendar rows here -->
-      </tbody>
-    </table></td><td> <table id="weather-table">
-      <thead>
-        <tr>
-          <th class="weather-table-heading" colspan="4">Weeks overall expected weather</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Weather data will be populated here -->
-      </tbody>
-    </table></td></tr></table>
-   </div>
-  <script src="scripts.js"></script>
+      </table>
+    </div>
+    <script src="scripts.js"></script>
 </body>
-</html>
 
-  
+</html>

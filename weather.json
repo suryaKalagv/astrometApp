@@ -1,26 +1,2371 @@
 [
   {
     "placeId": "TLNG",
-    "places": " Districts of Telangana state",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
     "weekId": 1,
-    "Summary": "rain cloud sun",
-    "weatherImage": "raincloudsun.png",
-    "ExpectedWeather": "Test week 1 edit"
+    "Summary": "Mixed weather",
+    "weatherImage": "Normal.png",
+    "ExpectedWeather": " Mixed weather with morning mist, later warm weather with above normal temperature, evening squalls, thunder storms with strong winds, lightning, Moderate rains and isolated very heavy rains over some places and extreme weather with sudden changes, cloud bursts with flood potential.  Climatological Normal Rain over the region under study, Above Normal Temperatures, Normal Humidity"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 1,
+    "Summary": "Mostly Sunny",
+    "weatherImage": "MostlySunny.png",
+    "ExpectedWeather": " Morning normal temperatures with fair weather, afternoon pockets of isolated acute heat, above normal temperatures. Due to presence of trough with Upper Air Circulation over the region, evening isolated thunder storms with lightning, strong winds,  Climatological Normal Rain over the region under study Moderate to heavy rains with flood potential, then cold weather prevails."
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 1,
+    "Summary": "Mostly Sunny",
+    "weatherImage": "MostlySunny.png",
+    "ExpectedWeather": "Morning fog, humid cold winds, mist, later temperature rises.  Mixed weather with morning mist, later warm weather with above normal temperature,evening squalls, thunder storms with strong winds, lightning, Moderate rains and isolated very heavy rain over some places and extreme weather with sudden changes, cloud bursts with flood potential.  Climatological Normal Rain over the region under study ANT, Hu"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 1,
+    "Summary": "Moderate Rains",
+    "weatherImage": "ModerateRains.png",
+    "ExpectedWeather": " Morning normal temperatures with fair weather, afternoon pockets of isolated acute heat, above normal temperatures. Due to presence of trough with Upper Air Circulation over the region, evening isolated thunder storms with lightning, strong winds, NR Moderate to heavy rains with flood potential, then cold weather prevails."
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT1",
+    "places": "West Central Bay of Bengal",
+    "weekId": 1,
+    "Summary": "Low Pressure",
+    "weatherImage": "LowPressure.png",
+    "ExpectedWeather": "L. Pr with Upper Air Circulation develops over West Central Bay of Bengal East of NCAP, Trough along East coast from NE direction to Odissa, NCAP. SCAP, TN. Another trough along west coast from Kerala to Maharastra.One more trough from NCAP - Telangana - Maharastra & SCAP to Maharastra. Forecast: Morning cold weather, strong winds, - extreme cold weather in some parts of NE India. Other areas: Isolated packets of acute heat, above normal temperatures, isolated dust / thunder storms over Odissa, MP, West Bengal and NE States. Over south India states, high probability is there for pockets of acute heat with above normal .temperatures, isolated thunder storms with strong winds, lightning & Moderate to Heavy rains."
+  },
+  
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 2,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 2,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 2,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 2,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 2,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
   },
   {
     "placeId": "TLNG",
-    "places": " Districts of Telangana state",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
     "weekId": 3,
-    "Summary": "rain cloud sun",
-    "weatherImage": "raincloudsun.png",
-    "ExpectedWeather": "Test week 3"
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 3,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 3,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 3,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 3,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
   },
   {
     "placeId": "TLNG",
-    "places": " Districts of Telangana state",
-    "weekId": 1,
-    "Summary": "heavyRains",
-    "weatherImage": "heavyrains.png",
-    "ExpectedWeather": "test modified"
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 4,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 4,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 4,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 4,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 4,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 5,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 5,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 5,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 5,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 5,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 6,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 6,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 6,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 6,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 6,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 7,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 7,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 7,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 7,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 7,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 8,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 8,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 8,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 8,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 8,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 9,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 9,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 9,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 9,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 9,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 10,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 10,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 10,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 10,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 10,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 11,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 11,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 11,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 11,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 11,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 12,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 12,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 12,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 12,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 12,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 13,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 13,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 13,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 13,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 13,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 14,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 14,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 14,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 14,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 14,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 15,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 15,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 15,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 15,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 15,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 16,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 16,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 16,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 16,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 16,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 17,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 17,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 17,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 17,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 17,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 18,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 18,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 18,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 18,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 18,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 19,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 19,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 19,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 19,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 19,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 20,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 20,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 20,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 20,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 20,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 21,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 21,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 21,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 21,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 21,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 22,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 22,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 22,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 22,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 22,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 23,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 23,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 23,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 23,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 23,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 24,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 24,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 24,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 24,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 24,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 25,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 25,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 25,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 25,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 25,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 26,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 26,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 26,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 26,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 26,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 27,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 27,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 27,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 27,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 27,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 28,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 28,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 28,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 28,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 28,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 29,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 29,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 29,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 29,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 29,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 30,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 30,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 30,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 30,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 30,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 31,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 31,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 31,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 31,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 31,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 32,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 32,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 32,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 32,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 32,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 33,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 33,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 33,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 33,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 33,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 34,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 34,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 34,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 34,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 34,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 35,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 35,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 35,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 35,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 35,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 36,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 36,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 36,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 36,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 36,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 37,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 37,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 37,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 37,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 37,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 38,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 38,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 38,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 38,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 38,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 39,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 39,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 39,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 39,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 39,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 40,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 40,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 40,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 40,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 40,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 41,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 41,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 41,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 41,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 41,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 42,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 42,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 42,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 42,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 42,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 43,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 43,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 43,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 43,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 43,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 44,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 44,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 44,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 44,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 44,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 45,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 45,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 45,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 45,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 45,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 46,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 46,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 46,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 46,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 46,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 47,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 47,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 47,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 47,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 47,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 48,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 48,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 48,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 48,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 48,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 49,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 49,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 49,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 49,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 49,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 50,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 50,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 50,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 50,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 50,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 51,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 51,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 51,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 51,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "HLGT",
+    "placeImage": "HLGT",
+    "places": "HLGT",
+    "weekId": 51,
+    "Summary": "Heavy Rains",
+    "weatherImage": "HeavyRains.png",
+    "ExpectedWeather": "weather"
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 52,
+    "Summary": "Rain Thunder",
+    "weatherImage": "RainThunder.png",
+    "ExpectedWeather": "Partly cloudy with normal temperature prevails.Isolated pockets of Above Normal temperature NR, ANT, HuIntermittent isolated rains at time Heavy. Isolated thunder showers with MR - HR, dashing rain (NR)"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 52,
+    "Summary": "Mixed weather",
+    "weatherImage": "MixedWeather.png",
+    "ExpectedWeather": " Mixed weather with pockets of Above Normal Temperature, ANT seasonal normal to below normal temperature prevail. Ascending air flow with upper air circulation, gusty winds.Isolated pockets of above normal temperature , Isolated thunder storms at times heavy to very heavy rain with flood potential. ANR, NT, Hu "
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 52,
+    "Summary": "Cloudy",
+    "weatherImage": "Cloudy.png",
+    "ExpectedWeather": "Wide spread cloudy, Seasonal normal to below normal temperature prevail Descending air flow with upper air circulation, gusty winds.Isolated pockets of above normal temperature , Isolated thunder showers at times heavy rain with flood potential. NR, NT, Hu "
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 52,
+    "Summary": "Mixed weather",
+    "weatherImage": "MixedWeather.png",
+    "ExpectedWeather": " Mixed weather with pockets of Above Normal Temperature, ANT seasonal normal to below normal temperature prevail. Ascending air flow with upper air circulation, gusty winds.Isolated pockets of above normal temperature , Isolated thunder storms at times heavy to very heavy rain with flood potential. ANR, NT, Hu "
+  },
+  {
+    "placeId": "TLNG",
+    "placeImage": "TLNG",
+    "places": "Telangana : Districts of Telangana state",
+    "weekId": 53,
+    "Summary": "Normal weather",
+    "weatherImage": "Normal.png",
+    "ExpectedWeather": "Partly cloudy with isolated showers, occasionally isolated dashing showersSeasonal fair weather with Increasing trend of temperature prevails. warm temperature ( seasonal normal temperature prevail). NR, NT, Hu"
+  },
+  {
+    "placeId": "RLSM",
+    "placeImage": "RLSM",
+    "places": "Rayalaseema - Chittoor, Cuddapah, Anantapur & Kurnool districts",
+    "weekId": 53,
+    "Summary": "Normal",
+    "weatherImage": "Normal.png",
+    "ExpectedWeather": "Fair weather prevails with divergence, down flow air,normal temperature prevail with gusty winds.R, NT, Hu "
+  },
+  {
+    "placeId": "NCAP",
+    "placeImage": "NCAP",
+    "places": "North Coastal Andhra Pradesh - Srikakulam, Visakhapatnam, East Godavari & West Godavari districts",
+    "weekId": 53,
+    "Summary": "Cloudy",
+    "weatherImage": "Cloudy.png",
+    "ExpectedWeather": "Wide spread cloudy, Seasonal normal to below normal temperature prevail. Descending air flow with upper air circulation, gusty winds.Isolated pockets of above normal temperature ,Isolated thunder showers at times heavy rain with flood potential. NR, NT, Hu"
+  },
+  {
+    "placeId": "SCAP",
+    "placeImage": "SCAP",
+    "places": "South Coastal Andhra Pradesh - Krishna, Guntur, Prakasam and Nellore districts",
+    "weekId": 53,
+    "Summary": "Normal",
+    "weatherImage": "Normal.png",
+    "ExpectedWeather": "Fair weather prevails with divergence, down flow air,normal temperature prevail with gusty winds.R, NT, Hu "
   }
+  
 ]

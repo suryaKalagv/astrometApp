@@ -123,7 +123,7 @@ async function populateAnnualCalendar(placeId) {
 
         if (entry) {
           const monthYearCell = document.createElement('div');
-          monthYearCell.textContent = "Month:   " + entry[0];
+          monthYearCell.innerHTML = "<strong>" +"Month:   " + entry[0] + "</strong>";
           monthYearCell.style.whiteSpace = "nowrap";
           monthYearCell.style.lineHeight = "1";
           cell.appendChild(monthYearCell);
@@ -199,7 +199,7 @@ async function displayWeatherData(placeId, weekId, weekRange) {
 
 
       const placeIdImage = document.createElement('img');
-      placeIdImage.src = "images/" + matchingEntry["placeId"] + ".jpg"; // Assuming the image is named based on placeId
+      placeIdImage.src = "images/" + matchingEntry["placeImage"] + ".jpg"; // Assuming the image is named based on placeId
       placeIdImage.alt = matchingEntry["placeId"];
       placeIdImage.style.width = '350px'; // Set width
       placeIdImage.style.height = '350px'; // Set height
@@ -220,7 +220,7 @@ async function displayWeatherData(placeId, weekId, weekRange) {
       const placeRow = document.createElement('tr');
       const placeCell = document.createElement('td');
       placeCell.colSpan = 2;
-      placeCell.textContent = matchingEntry["places"];
+      placeCell.innerHTML = '<strong>' +  matchingEntry["places"] + '</strong>';
       placeRow.appendChild(placeCell);
       weatherTableBody.appendChild(placeRow);
 
@@ -230,16 +230,16 @@ async function displayWeatherData(placeId, weekId, weekRange) {
       const timeRow = document.createElement('tr');
       const timeCell = document.createElement('td');
       timeCell.colSpan = 2;
-      timeCell.textContent = "During :  " + weekRange;
+      timeCell.innerHTML = '<strong>' + "During :  " + '</strong>' + weekRange;
       timeRow.appendChild(timeCell);
       weatherTableBody.appendChild(timeRow);
 
 
-      // time
+      // weather
       const weatherRow = document.createElement('tr');
       const weatheCell = document.createElement('td');
       weatheCell.colSpan = 2;
-      weatheCell.textContent = matchingEntry["Summary"] + " : " + matchingEntry["ExpectedWeather"];
+      weatheCell.innerHTML = '<strong>' + matchingEntry["Summary"] + '</strong>' + " : " + matchingEntry["ExpectedWeather"];
       weatherRow.appendChild(weatheCell);
       weatherTableBody.appendChild(weatherRow);
 
@@ -252,4 +252,11 @@ async function displayWeatherData(placeId, weekId, weekRange) {
   }
 }
 
+function openInNewWindow(url) {
+  // Open a new window with a specific name and set its attributes
+  var newWindow = window.open('', 'myWindow', 'width=600,height=400');
+  
+  // Set the URL of the new window
+  newWindow.location.href = url;
+}
 

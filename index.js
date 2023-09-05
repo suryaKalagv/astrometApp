@@ -19,9 +19,9 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 // Handle POST request to add weather data
-app.post('/addWeatherData', (req, res) => {
-  const newWeatherData = req.body;
-  console.log('Received request:', JSON.stringify(newWeatherData));
+app.post('/updateWeatherData', (req, res) => {
+  const updatedWeatherData = req.body;
+  console.log('Received request to update:', JSON.stringify(updatedWeatherData));
 
   fs.readFile(WEATHER_JSON_PATH, 'utf8', (err, data) => {
     if (err) {
@@ -33,8 +33,16 @@ app.post('/addWeatherData', (req, res) => {
       // Parse the existing weather data
       const existingWeatherData = JSON.parse(data);
 
-      // Append the new weather data to the existing data
-      existingWeatherData.push(newWeatherData);
+      // Find the index of the data to update based on both placeId and weekId
+      const dataIndex = existingWeatherData.findIndex(item => item.placeId === updatedWeatherData.placeId && item.weekId === updatedWeatherData.weekId);
+
+      if (dataIndex === -1) {
+        // If no matching data is found, insert the new data
+        existingWeatherData.push(updatedWeatherData);
+      } else {
+        // Update the existing data with the new data
+        existingWeatherData[dataIndex] = updatedWeatherData;
+      }
 
       // Write the updated data back to weather.json
       fs.writeFile(WEATHER_JSON_PATH, JSON.stringify(existingWeatherData, null, 2), 'utf8', writeErr => {
@@ -44,17 +52,15 @@ app.post('/addWeatherData', (req, res) => {
         }
 
         // Respond with a success message
-        res.status(200).json({ message: 'Weather data added successfully.' });
+        res.status(200).json({ message: 'Weather data updated or inserted successfully.' });
       });
     } catch (parseError) {
       console.error('Error parsing JSON:', parseError);
       res.status(500).json({ error: 'An error occurred while parsing weather data.' });
     }
   });
-
- 
 });
-  
+
 
 
 
